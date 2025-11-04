@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cristi Celedón SpA - Auditorías Integrales para edificios y condominios">
+  <title>Cristi Celedón SpA | Auditorías de Edificios y Condominios</title>
+
+  <style>
+    /* ======= ESTILOS GENERALES ======= */
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      color: #333;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #1a2c4e;
+      color: #fff;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5em;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* ======= SECCIÓN HERO ======= */
+    .hero {
+      background: linear-gradient(rgba(26,44,78,0.7), rgba(26,44,78,0.7)), url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1400&q=80') center/cover;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      background-color: #007bff;
+      color: white;
+      padding: 12px 30px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    /* ======= SECCIÓN SERVICIOS ======= */
+    .servicios {
+      background-color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .servicios h3 {
+      color: #1a2c4e;
+      font-size: 2em;
+      margin-bottom: 40px;
+    }
+
+    .servicios-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .servicio {
+      background-color: #f0f3f7;
+      border-radius: 8px;
+      padding: 30px;
+      width: 280px;
+      text-align: left;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .servicio:hover {
+      transform: translateY(-5px);
+    }
+
+    .servicio h4 {
+      color: #007bff;
+      margin-top: 0;
+    }
+
+    /* ======= POR QUÉ ELEGIRNOS ======= */
+    .porque {
+      background-color: #e9eef4;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .porque h3 {
+      color: #1a2c4e;
+      font-size: 2em;
+      margin-bottom: 30px;
+    }
+
+    .porque ul {
+      list-style: none;
+      padding: 0;
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .porque li {
+      margin: 10px 0;
+      padding-left: 25px;
+      position: relative;
+    }
+
+    .porque li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #007bff;
+    }
+
+    /* ======= TESTIMONIOS ======= */
+    .testimonios {
+      background-color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .testimonios h3 {
+      color: #1a2c4e;
+      margin-bottom: 40px;
+    }
+
+    .testimonio {
+      max-width: 600px;
+      margin: 0 auto 20px;
+      font-style: italic;
+    }
+
+    /* ======= CONTACTO ======= */
+    .contacto {
+      background-color: #1a2c4e;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .contacto h3 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .contacto p {
+      font-size: 1.1em;
+    }
+
+    /* ======= FOOTER ======= */
+    footer {
+      background-color: #14213d;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav {
+        margin-top: 10px;
+      }
+
+      .servicios-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ======= ENCABEZADO ======= -->
+  <header>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página</title>
+</head>
+<body>
+  <!-- Mostrar logo -->
+  <header>
+    <img src="C:\Users\andre\OneDrive\Escritorio/logo.png" alt="Logo de mi sitio" width="150">
+  </header>
+
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#porque">Por qué elegirnos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- ======= SECCIÓN HERO ======= -->
+  <section class="hero">
+    <h2>Auditorías Integrales para Edificios y Condominios</h2>
+    <p>Garantizamos transparencia y eficiencia para su comunidad. Auditamos la gestión. No se pierda... La auditoría financiera no cumple con los objetivos de una comunidad, se lo podemos explicar fácilmente con nuestra experiencia de 30 años en el rubro y un trabajo enfocado en las necesidades específicas que cada comunidad tiene.<p> 
+<p>AGENDE UNA VISITA GRATUITA PARA CONVERSAR SOBRE SU COMUNIDAD.<p> 
+<p>SOLO POR NOVIEMBRE - CUPOS LIMITADOS  </p>
+    <a href="#contacto" class="btn">Solicita tu auditoría</a>
+  </section>
+
+  <!-- ======= SERVICIOS ======= -->
+  <section id="servicios" class="servicios">
+    <h3>Nuestros Servicios</h3>
+    <div class="servicios-container">
+      <div class="servicio">
+                <h4>Auditorías Financieras</h4>
+        <p>Transparencia en los gastos comunes, control financiero de la administración del condominio, auditamos la gestión, el uso eficiente de los recursos, la buena y correcta administración del personal y el mantenimiento o mejora de la plusvalía de su propiedad. Todas ellas labores exigibles a la administración.</p>
+      </div>
+      </section>
+
+  <!-- ======= POR QUÉ ELEGIRNOS ======= -->
+  <section id="porque" class="porque">
+    <h3>¿Por qué elegir Cristi Celedón SpA?</h3>
+    <ul>
+      <li>Más de 30 años de experiencia en auditorías a comunidades y edificios.</li>
+      <li>Equipo multidisciplinario de auditores, prevencionistas e ingenieros.</li>
+      <li>Informes claros, visuales y fáciles de entender.</li>
+      <li>Informes se entregan y luego se presentan en asamblea ( opcional sin costo adicional ).</li>
+      <li>Atención según el propósito de la auditoría y el 80 % de nuestros clientes son del sector oriente de Santiago.</li>
+    </ul>
+  </section>
+
+  <!-- ======= TESTIMONIOS ======= -->
+  <section class="testimonios">
+    <h3>Testimonios</h3>
+    <div class="testimonio">
+      “Gracias a Cristi Celedón SpA detectamos fallas críticas antes de que se transformaran en emergencias.”  
+      <br>– Comité de Administración, Condominio Los Almendros.
+    </div>
+    <div class="testimonio">
+      “Excelente servicio, informes completos y atención profesional. 100% recomendados.”  
+      <br>– Comunidad El Bosque, Vitacura.
+    </div>
+  </section>
+
+  <!-- ======= CONTACTO ======= -->
+  <section id="contacto" class="contacto">
+    <h3>Contáctanos</h3>
+    <p><strong>Correo:</strong> cristiceledonspa@gmail.com</p>
+    <p><strong>Teléfono / WhatsApp:</strong> +56 9 4055 0018</p>
+    <p><strong>Ubicación:</strong> Las Condes, Vitacura, Providencia, Lo Barnechea, La Reina y comunas aledañas</p>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer>
+    © 2025 Cristi Celedón SpA — Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+ 
+
